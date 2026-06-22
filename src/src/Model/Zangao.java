@@ -17,5 +17,9 @@ public class Zangao extends Abelha{
     public double calcularConsumo(){
         return 15 + (voos * 3);
     }
+
+    public void defenderColmeia(){
+        System.out.println("Defendendo a entrada da colmeia");
+    }
 }
 

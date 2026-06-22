@@ -17,4 +17,13 @@ public class Operaria extends Abelha{
     public double calcularConsumo(){
         return 10 + (horasVoo * 2);
     }
+
+    public void coletarRecurso(){
+        System.out.println("Coletando nectar");
+    }
+
+    public void defenderColmeia(){
+        System.out.println("Defendendo a entrada da colmeia");
+    }
+
 }

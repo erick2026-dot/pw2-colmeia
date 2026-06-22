@@ -35,5 +35,18 @@ public class TestaColmeia {
         System.out.println();
 
         System.out.println("Consumo total: " + total + "mg");
+
+        Operaria flora = new;
+        Operaria("Flora",20,5);
+        Zangao zeca = new Zangao("zeca",30,3);
+        Rainha("Aurora",100,1500);
+
+        flora.coletarRecurso();
+        flora.defenderColmeia();
+
+        zeca.defenderColmeia();
+
+        System.out.println("Aurora: ");
+        System.out.println("Não pussui capacidades especiais");
     }
 }
